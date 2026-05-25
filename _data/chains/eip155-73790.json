@@ -1,1 +1,28 @@
-ewogICJuYW1lIjogIk5WLUNIQUlOIiwKICAiY2hhaW4iOiAiTlZDIiwKICAicnBjIjogWwogICAgImh0dHBzOi8vcnBjLm5ldXJvdmF0aWMuYWkvcnBjIgogIF0sCiAgImZhdWNldHMiOiBbCiAgICAiaHR0cHM6Ly9mYXVjZXQubmV1cm92YXRpYy5haSIKICBdLAogICJuYXRpdmVDdXJyZW5jeSI6IHsKICAgICJuYW1lIjogIk5ldXJvVmF0aWMgQ29pbiIsCiAgICAic3ltYm9sIjogIk5WQyIsCiAgICAiZGVjaW1hbHMiOiAxOAogIH0sCiAgImluZm9VUkwiOiAiaHR0cHM6Ly9uZXVyb3ZhdGljLmFpIiwKICAic2hvcnROYW1lIjogIm52YyIsCiAgImNoYWluSWQiOiA3Mzc5MCwKICAibmV0d29ya0lkIjogNzM3OTAsCiAgImV4cGxvcmVycyI6IFsKICAgIHsKICAgICAgIm5hbWUiOiAibnZTY2FuIiwKICAgICAgInVybCI6ICJodHRwczovL2V4cGxvcmVyLm5ldXJvdmF0aWMuYWkiLAogICAgICAic3RhbmRhcmQiOiAiRUlQMzA5MSIKICAgIH0KICBdCn0K
+{
+  "name": "NV-CHAIN",
+  "chain": "NVC",
+  "rpc": [
+    "https://rpc.neurovatic.ai/rpc",
+    "https://rpc-eu.neurovatic.ai/rpc",
+    "https://rpc-use.neurovatic.ai/rpc",
+    "https://rpc-usw.neurovatic.ai/rpc",
+    "https://rpc-apac.neurovatic.ai/rpc"
+  ],
+  "faucets": ["https://faucet.neurovatic.ai"],
+  "nativeCurrency": {
+    "name": "NeuroVatic Coin",
+    "symbol": "NVC",
+    "decimals": 18
+  },
+  "infoURL": "https://neurovatic.ai",
+  "shortName": "nvc",
+  "chainId": 73790,
+  "networkId": 73790,
+  "explorers": [
+    {
+      "name": "nvScan",
+      "url": "https://explorer.neurovatic.ai",
+      "standard": "EIP3091"
+    }
+  ]
+}
